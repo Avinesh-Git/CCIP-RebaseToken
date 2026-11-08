@@ -12,3 +12,13 @@ docs/
 
 # Dotenv file
 .env
+
+#Artifacts
+zkout/
+broadcast/
+.vscode/
+*.log
+
+# Ignore foundry artifacts in all nested submodules
+lib/**/out/
+lib/**/cache/
