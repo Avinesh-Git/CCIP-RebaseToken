@@ -77,7 +77,7 @@ contract RebaseToken is ERC20, Ownable, AccessControl {
     }
 
     /**
-     * @notice mint the user tokes when they deposit into the vault.
+     * @notice mint the user tokens when they deposit into the vault.
      * @param _to the user to mint the tokens to.
      * @param _amount the amount of tokens to mint.
      */
